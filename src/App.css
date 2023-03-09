@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+.navbar {
+  background-color: #6ec72d;
+  border-radius: 10px;
+}
+body {
+  background-color: rgb(168, 168, 168);
+  overflow-y: auto;
+}
+.navbar-list {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+}
+
+.navbar-link {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+}
+.navbar a:hover {
+  background-color: #66ad47;
+  color: white;
+}
+
+.listInstance {
+  list-style: none;
+  padding: 10px;
+}
+
+.displayList {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.button1 {
+  background-color: #6ec72d;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.textInput {
+  padding: 10px;
+  margin: 10px 10px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+}
